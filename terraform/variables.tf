@@ -4,6 +4,12 @@ variable project {
 }
 variable region {
   # Описание переменной
+  description = "europe-west3"
+  # Значение по умолчанию
+  default = "europe-west3"
+}
+variable zone {
+  # Описание переменной
   description = "europe-west3-c"
   # Значение по умолчанию
   default = "europe-west3-c"
