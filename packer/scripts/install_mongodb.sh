@@ -12,9 +12,9 @@ sudo apt install -y mongodb-org
 echo '*** DONE ***'
 
 echo '*** Запуск MongoDB ***'
-sudo systemctl start mongodb
+sudo systemctl start mongod
 echo '*** DONE ***'
 
 echo '*** Добавление MongoDB в автозапуск ***'
-sudo systemctl enable mongodb
+sudo systemctl enable mongod
 echo '*** DONE ***'
