@@ -22,6 +22,11 @@
 * Настроено подключение к созданым ВМ по SSH
 * Рассмотрен метод подключения к ВМ через ProxyJump (ssh -J your.jump.host remote.internal.host)
 
+```
+bastion_IP = 35.198.144.243
+someinternalhost_IP = 10.156.0.3
+```
+
 ------
 ## ДЗ 4 "Основные сервисы Google Cloud Platform (GCP)."
 
