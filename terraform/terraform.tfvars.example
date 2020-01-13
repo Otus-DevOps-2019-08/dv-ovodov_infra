@@ -1,5 +1,5 @@
 project          = "infra-253215"
 public_key_path  = "~/.ssh/odv.pub"
 disk_image       = "reddit-base"
-region           = "europe-west3-c"
+region           = "europe-west3-a"
 private_key_path = "~/.ssh/odv"

@@ -12,9 +12,9 @@ variable region {
 }
 variable zone {
   # Описание переменной
-  description = "europe-west3-c"
+  description = "Zone"
   # Значение по умолчанию
-  default = "europe-west3-c"
+  default = "europe-west3-a"
 }
 variable public_key_path {
   # Описание переменной
@@ -34,5 +34,5 @@ variable app_disk_image {
 }
 variable db_disk_image {
   description = "Disk image for reddit db"
-  default = "reddit-db-base"
+  default     = "reddit-db-base"
 }

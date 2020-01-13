@@ -24,7 +24,7 @@ resource "google_compute_instance" "db" {
 }
 
 resource "google_compute_firewall" "firewall_mongo" {
-  name = "allow-mongo-default"
+  name    = "allow-mongo-default"
   network = "default"
   allow {
     protocol = "tcp"

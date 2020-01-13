@@ -1,8 +1,8 @@
 # app_variables.tf
 
 variable zone {
-  description = "europe-west3-c"
-  default = "europe-west3-c"
+  description = "Zone"
+  default     = "europe-west3-a"
 }
 variable public_key_path {
   description = "~/.ssh/odv.pub"
