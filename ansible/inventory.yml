@@ -1,0 +1,6 @@
+[app]
+reddit-app ansible_host=35.242.192.155 ansible_user=odv \ ansible_private_key_file=~/.ssh/odv
+
+[db]
+reddit-db ansible_host=35.246.201.202 ansible_user=odv \ ansible_private_key_file=~/.ssh/odv
+
